@@ -8,10 +8,38 @@
     <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <!-- css -->
+    <style>
+        .inter {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-
+<body class="mt-40 px-2 lg:flex lg:flex-col lg:items-center lg:text-start lg:mt-23 bg-[#F2F5F9]">
+    <div class="bg-white rounded-b-lg">
+        <!-- images -->
+        <img src="./resources/hero-image-1.jpg" alt="" class="rounded-t-lg">
+        <img src="./resources/white-overlay.svg" alt="" class="absolute top-90 lg:top-76.5">
+        <!-- title -->
+         <p class="pl-6 inter text-2xl text-[#515663]">Perfect solution for small <br> business</p>
+        <!-- description -->
+        <p class="mt-5 mb-12 pl-6 inter text-sm text-[#A8ADB6]">Small businesses need to generate leads to grow.<br>You can use
+            tools like Ringy.</p>
+        <!-- review section -->
+        <section class="flex pl-6 items-center gap-3 pb-5">
+            <img src="./resources/avatar-image-business-card.png" alt=""
+                class="h-[43px] w-[43px] lg:h-[43px] lg:w-[43px] border-4 border-[#F2F5F9] rounded-[100%]">
+            <div>
+                <span class="inter font-bold text-[#727680] text-[14.2px]">Amy Burgess</span><br>
+                <span class="inter text-sm text-[#A8ADB6]">Customer Manager,Solution Oy</span>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
